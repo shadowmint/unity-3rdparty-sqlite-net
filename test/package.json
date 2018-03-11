@@ -1,0 +1,10 @@
+{
+  "name": "tests",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "unity-3rdparty-sqlite-net": "file:.."
+  }
+}

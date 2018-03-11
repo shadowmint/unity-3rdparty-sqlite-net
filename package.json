@@ -1,0 +1,27 @@
+{
+  "name": "unity-3rdparty-sqlite-net",
+  "version": "0.0.1",
+  "description": "sqlite-net packaged",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowmint/unity-3rdparty-sqlite-net.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowmint/unity-3rdparty-sqlite-net/issues"
+  },
+  "homepage": "https://github.com/shadowmint/unity-3rdparty-sqlite-net",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "unity-3rdparty-sqlite": "github:shadowmint/unity-3rdparty-sqlite#1.0.0"
+  }
+}
